@@ -209,7 +209,7 @@ def run_comparison(text, pattern, case_name, text_size_label, repeat=5):
     elif rk_time < naive_time:
         print("Faster algorithm in this experiment: Rabin-Karp")
     else:
-        print("Both algorithms took تقريبًا the same time")
+        print("Both algorithms took approximately  the same time")
 
     print("=" * 80)
     print()
